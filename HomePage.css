@@ -1,0 +1,88 @@
+body {
+    background-image: linear-gradient( rgba(144, 176, 207, 0) ,#0003033b) ,url('bgimage_home.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: auto;
+  }
+
+  .navbar-hp {
+    background-color: #b9f4f4;
+    color: #fff;
+    padding: 2%;
+    height: 20%;
+    width: 96%;
+    position: relative;
+  }
+  
+  .navbar-container-hp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo-hp > img {
+    width: 40%;
+  }
+
+  .sections-hp {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      left: 50%;
+    }
+    
+  .nav-menu-hp {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu-hp li {
+    margin-left: 20px;
+  }
+  
+  .nav-menu-hp li a {
+    color: #255582;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav-menu-hp li a:hover {
+    background: #0003033b;
+    color: #001c36;
+    text-decoration:none;
+  }
+  
+  .container-hp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    margin-top: 2%;
+    height: 500px;
+    width: 50%;
+  }
+  
+  .section-hp {
+    margin-bottom: 20px;
+    margin-right: 20%;
+  }
+  
+  .timings-hp {
+    background-color: #0c20204a;
+    color: #c9cdde;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 5%;
+    padding: 20px;
+    position: relative;
+    left: 50%;
+    width: 70%;
+  }
